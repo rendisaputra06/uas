@@ -47,7 +47,7 @@
     
     /* kolom 2 */
     .kolom2{
-        background-image: url(img/mahasiswa.jpg);
+        background-image: url(mahasiswa.jpg);
         background-size: cover;
         height: 580px;
     }
