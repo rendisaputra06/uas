@@ -1,0 +1,203 @@
+.navbar{
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,.13);
+    z-index: 5;
+}
+.tombol{
+    margin-bottom: 10px;
+}
+.kolom1 {
+    background-color: #2196F3;
+    background-size: cover;
+    color : white;
+    height: 550px;
+    padding-top: 150px;
+}
+.judul{
+    font-size: 30px;
+}
+.search-box{
+    background: #2f3640;
+    height: 40px;
+    border-radius: 20px;
+    padding :10px 5px 10px 5px;
+    width : 90%;
+    margin: 10px auto;
+}
+.search-btn{
+    color : #2196F3;
+    float: right;
+    width: 20px;
+    height : 20px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    text-decoration: none;
+}
+.search-text{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0 10px;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    width: 85%
+}
+.lead{
+    font-size: 16px;
+}
+/* kolom 2 style */
+.kolom2{
+    height: 460px;
+    margin-bottom: 0;
+}
+.kolom2 h1{
+    font-family: 'Lobster', cursive;
+}
+.subjumbo{
+    text-align: center;
+}
+.subjumbo p{
+    font-style: italic;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.tombol-kolom2{
+    border-radius : 40px;
+    width: 200px;
+    margin-top : 20px;
+    font-size: 16px;
+    height: 40px;
+}
+/* kolom 3 style */
+.kolom3{
+    background-color : #2196F3;
+    height: 480px;
+    margin-top : 0;
+}
+.subjumbo3{
+    color : white;
+    text-align: center;
+}
+.subjumbo3 h1{
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.subjumbo3 p{
+    width : 90%;
+    margin : 10px auto;
+    font-style: italic;
+}
+.kolom3 img{
+    width: 100%;
+}
+
+/* kolom 4 */
+.kolom4{
+    margin : 10px auto;
+    text-align: center;
+    
+}
+.kolom4 h1{
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+}
+
+/* footer */
+.footer{
+    height: 280px;
+    background-color: #2f3640;
+    margin-bottom : 0px;
+    color : white;
+}
+
+/* Style Navbar */
+.tombol {
+    margin-right : 1;
+}
+
+/* test */
+
+/* Footer  mulai dari sini hanya lah copypaste */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #303F9F;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: #303F9F !important;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+
+
